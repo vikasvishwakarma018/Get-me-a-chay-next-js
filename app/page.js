@@ -7,9 +7,9 @@ export default function Home() {
       <div>
         <div className="page min-h-[100%] py-30   px-20 space-y-10  w-full items-center justify-center ">
           <h1 className="text-6xl  items-center justify-center font-bold text-gray-300 flex ">Get Me A Chai <span className="flex items-center justify-center ">
-            <img className="h-20 " src="https://get-me-chai.vercel.app/tea.gif" alt="chay.png" />
+            <img className="h-25 absolute bottom-78 right-87 " src="./teaLogo.gif" alt="chay.png" />
           </span> </h1>
-          <p className="text-white items-center justify-center px-25  text-lg  font-semibold   ">A Crowdfunding platform for creaters. Get funded by your fans and followers. Start Now!</p>
+          <p className="text-white items-center justify-center px-45  text-lg  font-semibold   ">A Crowdfunding platform for creaters. Get funded by your fans and followers. Start Now!</p>
           <div className="btns flex text-lg space-x-4 items-center justify-center 
         p-4 m-3 py-2  my-6  ">
             <button className="text-white bg-green-600 rounded-xl  bg-linear-to-r from-cyan-500 to-blue-500  hover:bg-linear-65 hover:from-purple-500 hover:to-pink-500 px-2 py-2 ">Start Here</button>
@@ -24,17 +24,17 @@ export default function Home() {
 
           <div className="elements my-2 h-[50vh] flex justify-between space-x-0 px-16  text-white items-center ">
             <div className="box">
-              <img className="h-26 rounded-full  " src="https://get-me-chai.vercel.app/man.gif" alt="fund yourself" />
+              <img className="h-26 rounded-full  " src="./man.gif" alt="fund yourself" />
               <h1 className="font-bold mt-2 ">Fund Yourself </h1>
               <p className="my-2 ">your fans are available to help you</p>
             </div>
             <div className="box">
-              <img className="h-26 rounded-full  " src="https://get-me-chai.vercel.app/dollar.gif" alt="fund yourself" />
+              <img className="h-26 rounded-full  " src="./dollar.gif" alt="fund yourself" />
               <h1 className="font-bold mt-2 ">Fund Yourself </h1>
               <p className="my-2 ">your fans are available to help you</p>
             </div>
             <div className="box">
-              <img className="h-26 rounded-full  " src="https://get-me-chai.vercel.app/group.gif" alt="fund yourself" />
+              <img className="h-26 rounded-full  " src="./group.gif" alt="fund yourself" />
               <h1 className="font-bold mt-2 ">Fans wants to help</h1>
               <p className="my-2 ">your fans are available to help you</p>
             </div>
